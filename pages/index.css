@@ -1,1 +1,6 @@
+/*------------------сторонний импорт--------------------*/
 @import url(../vendors/normalize.css);
+@import url(../vendors/fonts/fonts.css);
+
+/*-------------------главное подключение--------------------------*/
+@import url(../blocks/page/page.css);
