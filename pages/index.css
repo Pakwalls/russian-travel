@@ -56,5 +56,6 @@
 
 /*-------------------миксы подключение--------------------------*/
 @import url(../blocks/regular-count/regular-count.css);
-@import url(../blocks/item-decoration/item-decoration.css);
+@import url(../blocks/list-decoration/list-decoration.css);
+@import url(../blocks/link-decoration/link-decoration.css);
 
