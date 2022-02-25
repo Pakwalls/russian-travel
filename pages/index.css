@@ -30,6 +30,7 @@
 
 /*-------------------photo-grid подключение--------------------------*/
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
