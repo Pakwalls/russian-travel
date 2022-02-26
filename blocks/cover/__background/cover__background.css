@@ -1,0 +1,8 @@
+.cover__background {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background-image: url(../../../images/cover__image.jpg);
+}
+

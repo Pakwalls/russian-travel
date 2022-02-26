@@ -2,6 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  margin: 0 0;
+  margin: 92px 0 0 0;
   overflow: hidden; /*----------проверить необходимость при медиа изменениях-------*/
 }
