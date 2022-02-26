@@ -1,5 +1,7 @@
 .photo-grid {
   margin-top: 92px;
-  /*max-width: 1184px;------------------------марджины установили центр---------*/
+  max-width: 1184px;
+  width: calc(100% * (1184 / 1280));
   width: -webkit-fill-available;
+  width: -mos-fill-available;
 }

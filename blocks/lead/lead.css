@@ -1,5 +1,4 @@
 .lead {
-  margin-top: 48px;
   display: grid;
   grid-template-columns: minmax(1vw, 984px);
   justify-items: center;
