@@ -4,5 +4,9 @@
   justify-items: center;
   align-content: center;
   background-image: url(../../../images/cover__image.jpg);
+  object-fit: cover;
+  min-width: 1184px;
+  min-height: 740px;
+  /*background-repeat: no-repeat;*/
 }
 

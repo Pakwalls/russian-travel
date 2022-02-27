@@ -1,0 +1,6 @@
+.footer {
+  display: grid;
+  grid-template: 1fr / minmax(auto, calc(1184px / 2)) minmax(auto, calc(1184px / 2));
+  padding: 92px 48px 24px 48px;
+  align-items: end;
+}
