@@ -1,5 +1,26 @@
 .lead {
-  display: grid;
-  grid-template-columns: minmax(1vw, 984px);
+  display: flex;
+  flex-direction: column;
   justify-items: center;
+  align-items: center;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    grid-template-columns: minmax(1fr, 928px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    grid-template-columns: minmax(1fr, 768px);
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    grid-template-columns: minmax(1fr, 320px);
+  }
 }

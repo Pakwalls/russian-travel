@@ -1,7 +1,7 @@
 .link-decoration {
   color: #fff;
   text-decoration: none;
-  transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease;
 }
 
 .link-decoration:hover {

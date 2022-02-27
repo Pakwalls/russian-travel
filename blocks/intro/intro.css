@@ -1,6 +1,12 @@
 .intro {
-  display: grid;
-  grid-template-columns: minmax(1vw, 984px);
-  margin-top: 28px;
-  max-width: 984px;
+  max-width: 1080px;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
 }

@@ -12,10 +12,11 @@
   left: 0;
   bottom: 0;
   z-index: -1;
-  background-color: rgba(42, 44, 47, .3);
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity 1s ease;
 }
 
-
 .cover__background:hover::before {
-  background-color: rgba(42, 44, 47, .8);
+  opacity: .8;
 }
