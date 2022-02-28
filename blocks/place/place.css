@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: calc(100%*(460/984)) calc(100%*(484/984)) ;
+  grid-template-columns: calc(100% * (460 / 984)) calc(100% * (484 / 984));
   grid-template-rows: auto;
   column-gap: 40px;
   row-gap: 48px;
