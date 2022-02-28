@@ -1,6 +1,32 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 92px 48px 24px;
+
+  /*
   display: grid;
   grid-template: 1fr / minmax(auto, calc(1184px / 2)) minmax(auto, calc(1184px / 2));
   padding: 92px 48px 24px 48px;
   align-items: end;
+  */
+}
+
+@media screen and (max-width: 1280px) { /*--------------------------для удобства просмотра в DevTools ;)---------------------------*/
+  .footer {
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-top: 64px;
+    padding-left: 16px;
+  }
 }

@@ -5,10 +5,23 @@
   width: calc(100% * (984 / 1280));
   max-width: 984px;
 }
-/*
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
   .intro {
-    padding: 0 24px;
+    width: calc(100% * (928 / 1024));
   }
 }
-/
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% * (720 / 768));
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: calc(100% * (288 / 320));
+    padding-top: 64px;
+  }
+}

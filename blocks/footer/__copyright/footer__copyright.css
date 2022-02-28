@@ -1,3 +1,12 @@
 .footer__copyright {
   text-align: end;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    flex-direction: column;
+    text-align: start;
+    margin: 48px 0 0 0;
+  }
 }

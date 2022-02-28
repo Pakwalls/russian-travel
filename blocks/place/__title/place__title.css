@@ -3,5 +3,29 @@
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
-  margin: 80px 0 0 0;
+  width: 100%;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .place__title {
+    box-sizing: border-box;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

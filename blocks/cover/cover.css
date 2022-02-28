@@ -11,3 +11,24 @@
   background-size: cover;
   z-index: 1;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% * (1024 / 1024));
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: calc(100% * (768 / 768));
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: calc(100% * (320 / 320));
+    min-height: 200px;
+  }
+}
